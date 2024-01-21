@@ -1,0 +1,6 @@
+F:\StudentManagementSystem\StudentManagement\ApplicationClass\bin\Debug\ApplicationClass.dll
+F:\StudentManagementSystem\StudentManagement\ApplicationClass\bin\Debug\ApplicationClass.pdb
+F:\StudentManagementSystem\StudentManagement\ApplicationClass\obj\Debug\ApplicationClass.csproj.AssemblyReference.cache
+F:\StudentManagementSystem\StudentManagement\ApplicationClass\obj\Debug\ApplicationClass.csproj.CoreCompileInputs.cache
+F:\StudentManagementSystem\StudentManagement\ApplicationClass\obj\Debug\ApplicationClass.dll
+F:\StudentManagementSystem\StudentManagement\ApplicationClass\obj\Debug\ApplicationClass.pdb

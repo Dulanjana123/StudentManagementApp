@@ -1,0 +1,10 @@
+F:\StudentManagementSystem\StudentManagement\StudentManagement\bin\Release\StudentManagement.exe.config
+F:\StudentManagementSystem\StudentManagement\StudentManagement\bin\Release\StudentManagement.exe
+F:\StudentManagementSystem\StudentManagement\StudentManagement\bin\Release\StudentManagement.pdb
+F:\StudentManagementSystem\StudentManagement\StudentManagement\obj\Release\StudentManagement.csproj.AssemblyReference.cache
+F:\StudentManagementSystem\StudentManagement\StudentManagement\obj\Release\StudentManagement.frmLogin.resources
+F:\StudentManagementSystem\StudentManagement\StudentManagement\obj\Release\StudentManagement.Properties.Resources.resources
+F:\StudentManagementSystem\StudentManagement\StudentManagement\obj\Release\StudentManagement.csproj.GenerateResource.cache
+F:\StudentManagementSystem\StudentManagement\StudentManagement\obj\Release\StudentManagement.csproj.CoreCompileInputs.cache
+F:\StudentManagementSystem\StudentManagement\StudentManagement\obj\Release\StudentManagement.exe
+F:\StudentManagementSystem\StudentManagement\StudentManagement\obj\Release\StudentManagement.pdb
