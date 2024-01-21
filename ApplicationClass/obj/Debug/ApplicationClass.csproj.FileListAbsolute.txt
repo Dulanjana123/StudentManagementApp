@@ -4,3 +4,9 @@ F:\StudentManagementSystem\StudentManagement\ApplicationClass\obj\Debug\Applicat
 F:\StudentManagementSystem\StudentManagement\ApplicationClass\obj\Debug\ApplicationClass.csproj.CoreCompileInputs.cache
 F:\StudentManagementSystem\StudentManagement\ApplicationClass\obj\Debug\ApplicationClass.dll
 F:\StudentManagementSystem\StudentManagement\ApplicationClass\obj\Debug\ApplicationClass.pdb
+E:\DevOps\StudentManagementApp\ApplicationClass\bin\Debug\ApplicationClass.dll
+E:\DevOps\StudentManagementApp\ApplicationClass\bin\Debug\ApplicationClass.pdb
+E:\DevOps\StudentManagementApp\ApplicationClass\obj\Debug\ApplicationClass.csproj.AssemblyReference.cache
+E:\DevOps\StudentManagementApp\ApplicationClass\obj\Debug\ApplicationClass.csproj.CoreCompileInputs.cache
+E:\DevOps\StudentManagementApp\ApplicationClass\obj\Debug\ApplicationClass.dll
+E:\DevOps\StudentManagementApp\ApplicationClass\obj\Debug\ApplicationClass.pdb

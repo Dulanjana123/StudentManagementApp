@@ -26,6 +26,7 @@ namespace ApplicationClass
 
         public User(int id)
         {
+            
             using (SqlConnection conn = new SqlConnection(MainController.Instance.GetConnectionString()))
             {
                 conn.Open();
@@ -33,22 +34,26 @@ namespace ApplicationClass
                 SqlCommand cmd = new SqlCommand("User_Get_ById", conn);
                 cmd.CommandType = CommandType.StoredProcedure;
 
-                cmd.Parameters.Add("@Id", SqlDbType.VarChar).Value = id;
+                cmd.Parameters.Add("@Id", SqlDbType.Int).Value = id;
 
                 SqlDataAdapter da = new SqlDataAdapter(cmd);
                 DataTable dt = new DataTable();
-                conn.Close();
 
                 da.Fill(dt);
 
-                this.UserName = dt.Rows[0]["UserName"].ToString();
-                this.FirstName = dt.Rows[0]["FirstName"].ToString();
-                this.LastName = dt.Rows[0]["LastName"].ToString();
-                this.Password = dt.Rows[0]["Password"].ToString();
-                this.Id = int.Parse(dt.Rows[0]["Id"].ToString());
-                this.IsActive = bool.Parse(dt.Rows[0]["IsActive"].ToString());
+                conn.Close();
 
+                if (dt.Rows.Count > 0)
+                {
+                    this.UserName = dt.Rows[0]["UserName"].ToString();
+                    this.FirstName = dt.Rows[0]["FirstName"].ToString();
+                    this.LastName = dt.Rows[0]["LastName"].ToString();
+                    this.Password = dt.Rows[0]["Password"].ToString();
+                    this.Id = int.Parse(dt.Rows[0]["Id"].ToString());
+                    this.IsActive = bool.Parse(dt.Rows[0]["IsActive"].ToString());
+                }
             }
+
         }
 
         public User(string username)
@@ -94,7 +99,7 @@ namespace ApplicationClass
                     SqlCommand cmd = new SqlCommand("User_Insert", conn);
                     cmd.CommandType = CommandType.StoredProcedure;
 
-                    cmd.Parameters.Add("@UName", SqlDbType.VarChar).Value = this.UserName;
+                    cmd.Parameters.Add("@UserName", SqlDbType.VarChar).Value = this.UserName;
                     cmd.Parameters.Add("@FirstName", SqlDbType.VarChar).Value = this.FirstName;
                     cmd.Parameters.Add("@LastName", SqlDbType.VarChar).Value = this.LastName;
                     cmd.Parameters.Add("@Password", SqlDbType.VarChar).Value = this.Password;

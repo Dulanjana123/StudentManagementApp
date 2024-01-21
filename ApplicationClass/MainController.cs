@@ -73,7 +73,11 @@ namespace ApplicationClass
         /// <returns></returns>
         public string GetConnectionString()
         {
-            return "Data Source = 192.168.21.165; Initial Catalog = Dulanjana_Test; User Id = oims ; Password = oims#erp@cmb2015#; Asynchronous Processing=true;";
+            //return "Data Source = .; Initial Catalog = StudentManagement; Asynchronous Processing=true;";
+            //return "Data Source=.;Database=StudentManagement;Trusted_Connection=True;";
+            //return "Server=.;Database=StudentManagement;Trusted_Connection=True;  Asynchronous Processing=true;";
+            return "Server=.;Initial Catalog=StudentManagement;Trusted_Connection=True;";
+
         }
     }
 }
